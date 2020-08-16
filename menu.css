@@ -1,0 +1,260 @@
+body {
+    background-image: url(./picture/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+}
+
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+}
+
+
+/* different techniques for iPad screening */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}
+
+.top-nav-collapse {
+    background-color: rgba(108, 189, 3, 0.804)!important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background-color: rgba(108, 189, 3, 0.804)!important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: rgba(108, 189, 3, 0.804)!important;
+    }
+}
+
+nav {
+    height: 60px;
+    margin-bottom: 120px;
+}
+
+.menuRow {
+    width: 100%;
+    margin: auto;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+.navbar-nav nav-item {
+    float: right;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.bg {
+    /* The image used */
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.btn,
+.btn-success {
+    box-shadow: inset 0px 0px 0px -50px #f2fadc;
+    background: radial-gradient(circle, rgba(53, 94, 0, 0.804359243697479) 0%, rgba(108, 136, 0, 0.6334908963585435) 100%);
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    border: none;
+    text-shadow: 2px #0000006c;
+    outline: none;
+}
+
+.btn-group .btn {
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn:active,
+.btn:focus,
+.btn:target,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:target {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.menuItems {
+    margin-top: 15px;
+}
+
+#pizzas,
+#burgers {
+    width: 100%;
+    height: 100%;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(199, 199, 199, 0.404);
+}
+
+.removeButton {
+    float: right;
+}
+
+.info {
+    width: 100%;
+    margin-top: 2%;
+    height: 50%;
+}
+
+.ingredients {
+    height: 50%;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.addButton {
+    width: 30%;
+    text-align: center;
+    float: left;
+    height: 37px;
+}
+
+.addHolder {
+    padding: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.custom-select {
+    float: left;
+    width: 70%;
+    border-radius: 20px;
+}
+
+select {
+    text-align-last: center;
+}
+
+select:focus {
+    outline: none;
+}
+
+.image-border {
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 100%;
+    opacity: 0.9;
+    box-shadow: 1px 1px 1px rgba(0, 128, 0, 0.39);
+    margin-top: 25px;
+}
+
+.picture {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.product-name,
+.product-price {
+    height: 10%;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 900;
+    -ms-transform: translate(-50%, -50%);
+}
+
+.order {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.product-price {
+    top: 80%;
+}
+
+.orderButton {
+    height: 80px;
+}
+
+#picture-holder {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#table-holder {
+    float: left;
+    height: 450px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(7, 13, 0, 0.267) 0%, rgba(0, 0, 0, 0.123) 100%);
+}
+
+.table td,
+table.table a {
+    color: white;
+    font-size: 18px;
+}
+
+.info-holder {
+    margin-bottom: 20px;
+}
+
+h4,
+h2,
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#addExtra {
+    float: left;
+}
+
+#myButton {
+    float: right;
+}

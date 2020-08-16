@@ -1,0 +1,139 @@
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
+    .cover {
+        width: 400px;
+    }
+    .form {
+        margin: 20px 0px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+    .cover {
+        width: 400px;
+    }
+    .form {
+        margin: 20px 0px;
+    }
+}
+
+.top-nav-collapse {
+    background-color: rgba(108, 189, 3, 0.804)!important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: rgba(108, 189, 3, 0.804)!important;
+    }
+}
+
+nav {
+    height: 55px;
+}
+
+.rgba-gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(91, 119, 55, 0.804) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(182, 230, 120, 0.804) 100%));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(74, 88, 54, 0.804) 100%);
+}
+
+.card {
+    background-color: rgba(47, 78, 5, 0.836);
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+#sm {
+    padding-right: 50px;
+}
+
+
+/* Chart.js */
+
+@-webkit-keyframes chartjs-render-animation {
+    from {
+        opacity: 0.99
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes chartjs-render-animation {
+    from {
+        opacity: 0.99
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.chartjs-render-monitor {
+    -webkit-animation: chartjs-render-animation 0.001s;
+    animation: chartjs-render-animation 0.001s;
+}
+
+.form {
+    width: 400px;
+    float: right;
+    background-color: rgba(47, 83, 0, 0.804);
+    box-shadow: 0px5px15pxrgba(0, 0, 0, 0.5);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: inline;
+    margin-right: 50px;
+}
+
+.container {
+    display: inline;
+}
+
+.layout {
+    display: inline;
+    float: left;
+    margin-top: 81px;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-top: 15px;
+    text-align: center;
+    color: tomato;
+}
+
+form {
+    text-align: center;
+    text-emphasis-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

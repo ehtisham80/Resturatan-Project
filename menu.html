@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>vegasrestaurant</title>
+    <link rel="stylesheet" href="./Material Design Bootstrap Template_files/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="./Material Design Bootstrap Template_files/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="./Material Design Bootstrap Template_files/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="./menu.css" />
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href="./font/css/all.css" rel="stylesheet">
+
+</head>
+
+<body aria-busy="true" data-gr-c-s-loaded="true">
+
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="home.html">
+                    <strong>
+                        Vegas
+                    </strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="./home.html">Home </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect waves-light" href="./menu.html">Menu </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="./booking.html">Booking </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="./contact.html">Contact us </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link waves-effect waves-light" href="./AboutUs.html">About us <span class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+                    <a class="fb-ic" href="./cart.html">
+                        <i class="fas fa-shopping-cart prefix white-text" aria-hidden="true"></i>
+                    </a>
+
+                    </form>
+
+                </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="bg">
+
+
+            <div class="container">
+                <div class="row menuRow btn-group">
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+                        <button id="pizza" class="btn btn-success">Pizza</button>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+                        <button id="hamburger" class="btn btn-success">Hamburgers</button>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+
+                        <button id="extra" class="btn btn-success">Extra</button>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-2 ">
+                        <button id="dip" class="btn btn-success">Dip</button>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+                        <button id="soda" class="btn btn-success">Soda</button>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+                        <button id="alcohol" class="btn btn-success">Alcohol</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="menuItems">
+
+                <div class="container" id="pizzas">
+
+                    <div class="row menuRow btn-group">
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="margherita" class="btn btn-success">Margherita</button>
+                        </div>
+
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="funghi" class="btn btn-success">Funghi</button>
+                        </div>
+
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="peperoni" class="btn btn-success">Peperoni</button>
+                        </div>
+
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="vegetarian" class="btn btn-success">Vegetarian</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="burgers">
+                    <div class="row menuRow btn-group">
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="spicy" class="btn btn-success">Spicy Burger</button>
+                        </div>
+
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="cheese" class="btn btn-success">Cheese Burger</button>
+                        </div>
+
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="beefAndBacon" class="btn btn-success">Beef 'n' Bacon</button>
+                        </div>
+
+                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 ">
+                            <button id="blackBeans" class="btn btn-success">Black Beans</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="extras">
+                    <div class="row menuRow">
+                        <div class=" col-12 col-sm-12 col-md-6 col-lg-6 ">
+                            <img class="image-border" src="menu_Images/extras/frenchFries.jpg">
+                            <h1 class="product-name">French Fries</h1>
+                            <h2 class="product-price">Price: <span>25</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 ">
+                            <img class="image-border" src="menu_Images/extras/chickenWings.jpg">
+                            <h1 class="product-name">Chicken Wings</h1>
+                            <h2 class="product-price">Price: <span>45</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="dips">
+                    <div class="row menuRow">
+                        <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                            <img class="image-border" src="menu_Images/dipSauce/bbq.jpg">
+                            <h1 class="product-name">Barbecue</h1>
+                            <h2 class="product-price">Price: <span>15</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                            <img class="image-border" src="menu_Images/dipSauce/guacamole.jpg">
+                            <h1 class="product-name">Guacamole</h1>
+                            <h2 class="product-price">Price: <span>15</span> SEK</h1>
+                                <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                            <img class="image-border" src="menu_Images/dipSauce/ketchup.jpg">
+                            <h1 class="product-name">Ketchup</h1>
+                            <h2 class="product-price">Price: <span>15</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 ">
+                            <img class="image-border" src="menu_Images/dipSauce/mayo.jpg">
+                            <h1 class="product-name">Mayo</h1>
+                            <h2 class="product-price">Price: <span>15</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container" id="sodas">
+                    <div class="row menuRow">
+                        <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                            <img class="image-border" src="menu_Images/non-alcohol/cocaCola.jpg">
+                            <h1 class="product-name">Coca Cola</h1>
+                            <h2 class="product-price">Price: <span>30</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                            <img class="image-border" src="menu_Images/non-alcohol/fanta.jpg">
+                            <h1 class="product-name">Fanta</h1>
+                            <h2 class="product-price">Price: <span>30</span> SEK</h1>
+                                <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                            <img class="image-border" src="menu_Images/non-alcohol/sprite.jpg">
+                            <h1 class="product-name">Sprite</h1>
+                            <h2 class="product-price">Price: <span>30</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+                            <img class="image-border" src="menu_Images/non-alcohol/orangeJuice.jpg">
+                            <h1 class="product-name">Juice</h1>
+                            <h2 class="product-price">Price: <span>25</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+                            <img class="image-border" src="menu_Images/non-alcohol/sparkling.jpg">
+                            <h1 class="product-name">Sparkling Water</h1>
+                            <h2 class="product-price">Price: <span>15</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="alcohols">
+                    <div class="row menuRow">
+                        <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                            <img class="image-border" src="menu_Images/alcohol/heineken.jpg">
+                            <h1 class="product-name">Heineken</h1>
+                            <h2 class="product-price">Price: <span>60</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                            <img class="image-border" src="menu_Images/alcohol/mariestad.jpg">
+                            <h1 class="product-name">Mariestad</h1>
+                            <h2 class="product-price">Price: <span>55</span> SEK</h1>
+                                <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                            <img class="image-border" src="menu_Images/alcohol/redWine.jpg">
+                            <h1 class="product-name">Red Wine</h1>
+                            <h2 class="product-price">Price: <span>45</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+                            <img class="image-border" src="menu_Images/alcohol/whiteWine.jpg">
+                            <h1 class="product-name">White Wine</h1>
+                            <h2 class="product-price">Price: <span>40</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+
+                        <div class="wings col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+                            <img class="image-border" src="menu_Images/alcohol/champagne.jpg">
+                            <h1 class="product-name">Champagne</h1>
+                            <h2 class="product-price">Price: <span>65</span> SEK</h2>
+                            <button class="btn btn-success order">Order</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div id="wrapper" class="info container menuRow">
+
+                <div id="picture-holder" class="picture col-12 col-sm-12 col-md-6 col-lg-6">
+                    <img id="image" class="img-rounded">
+                    <h2 id="product-name" class="product-name">Margherita</h2>
+                    <h2 id="product-price" class="product-price">Price: 65 SEK</h2>
+                </div>
+                <div class="info-holder">
+
+                    <div id="table-holder" class="overflow-auto col-12 col-sm-12 col-md-6 col-lg-6">
+                        <h4>Ingredients</h4>
+
+                        <div class="addHolder">
+                            <div>
+                                <select class="browser-default custom-select" id="addExtra"></select>
+                            </div>
+                            <div>
+                                <button id="myButton" class="addButton  btn-success" type="button" onclick="addNewIngredient()">Add</button>
+                            </div>
+
+                        </div>
+                        <table class="table" id="ingredients"></table>
+                    </div>
+                    <button class="btn btn-success orderButton">Order</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </main>
+
+
+
+
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div style="background-color:  rgba(108, 189, 3, 0.804)">
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">Vegas</h6>
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>try your dream with us</br>
+
+                        <p>
+                            <a href="#!">1</a>
+                        </p>
+                        <p>
+                            <a href="#!">2</a>
+                        </p>
+                        <p>
+                            <a href="#!">3</a>
+                        </p>
+
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Restaurant</h6>
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">delivery</a>
+                    </p>
+                    <p>
+                        <a href="#!">opening hours</a>
+                    </p>
+                    <p>
+                        <a href="#!">takeaway</a>
+                    </p>
+                    <p>
+                        <a href="#!">meet our chef</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Circus</h6>
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Book a show</a>
+                    </p>
+                    <p>
+                        <a href="#!">terms&conditions</a>
+                    </p>
+                    <p>
+                        <a href="#!">career</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Klarabergsviadukten 70,STOCKHOLM</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> info@vegasrestaurant.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> 0733337777</p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i> 0733337778</p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="./home.html"> vegasrestaurant.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+    <script src="./menu.js"></script>
+
+    <script>
+        $(attachEvents())
+    </script>
+
+</body>
+
+</html>
